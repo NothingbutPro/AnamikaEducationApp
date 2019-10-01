@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anamika.MainActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="101"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_attendance"
+        android:orderInCategory="101"
+        android:title="Attendance"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exam"
+        android:orderInCategory="101"
+        android:title="Exam"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_result"
+        android:orderInCategory="101"
+        android:title="Result"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_teacher"
+        android:orderInCategory="101"
+        android:title="Teacher"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_growth"
+        android:orderInCategory="101"
+        android:title="Growth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_holiday"
+        android:orderInCategory="101"
+        android:title="Holiday"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/action_event"
+        android:orderInCategory="101"
+        android:title="News and Event"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notice"
+        android:orderInCategory="101"
+        android:title="Notice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_school_profile"
+        android:orderInCategory="100"
+        android:title="School Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_timetable"
+        android:orderInCategory="100"
+        android:title="Time Table"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quiz"
+        android:orderInCategory="100"
+        android:title="Quiz"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_fees"
+        android:orderInCategory="100"
+        android:title="Fees"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_books"
+        android:orderInCategory="100"
+        android:title="Books"
+        app:showAsAction="never" />
+
+
+</menu>

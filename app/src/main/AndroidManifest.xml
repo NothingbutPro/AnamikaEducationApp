@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anamika">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        android:name="com.anamika.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logoags"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <!-- Firebase Notifications -->
+        <service android:name="fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity
+            android:name="com.anamika.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.AttendenceActivity"
+            android:label="@string/title_activity_attendence"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.anamika.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.anamika.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.ExamActivity"
+            android:label="@string/title_activity_exam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.TeacherActivity"
+            android:label="@string/title_activity_teacher"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.GrowthActivity"
+            android:label="@string/title_activity_growth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.HolidaysActivity"
+            android:label="@string/title_activity_holidays"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.NoticeActivity"
+            android:label="@string/title_activity_notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.EnquiryActivity"
+            android:label="@string/title_activity_enquiry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.ResultListActivity"
+            android:label="@string/title_activity_result_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.TopStudentActivity"
+            android:label="@string/title_activity_top_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.SchoolProfileActivity"
+            android:label="@string/title_activity_school"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.anamika.TimetableActivity"
+            android:label="@string/title_activity_time_table"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.anamika.TimeAcitivity">
+        </activity>
+        <activity
+            android:name="com.anamika.Quiz_subjectActivity"
+            android:label="@string/menu_quiz" />
+        <activity android:name="com.anamika.Quiz_answerActivity" />
+        <activity android:name="com.anamika.Quiz_resultActivity" />
+        <activity
+            android:name="com.anamika.FeesActivity"
+            android:label="@string/menu_fees" />
+        <activity
+            android:name="com.anamika.BookActivity"
+            android:label="@string/menu_book" />
+        <activity android:name="com.anamika.ViewBookActivity" />
+        <activity
+            android:name="com.anamika.NotificationActivity"
+            android:label="@string/menu_notification" />
+        <activity
+            android:name="com.anamika.Notification_detailActivity"
+            android:label="@string/menu_notification" />
+    </application>
+
+</manifest>

@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "759923721515",
+    "firebase_url": "https://advance-classified-785c5.firebaseio.com",
+    "project_id": "advance-classified-785c5",
+    "storage_bucket": "advance-classified-785c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759923721515:android:fc03a1fa833813aa",
+        "android_client_info": {
+          "package_name": "com.codecanyon.advanceclassified"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759923721515-020t8oolegs9ic4e9dh5hi8jd1q2qao2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADnPr7siGQgVVQZaX5j9bzUhklPWMV_nI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759923721515:android:c0ef1f9fdf637e64",
+        "android_client_info": {
+          "package_name": "codecanyon.carondeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759923721515-020t8oolegs9ic4e9dh5hi8jd1q2qao2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADnPr7siGQgVVQZaX5j9bzUhklPWMV_nI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759923721515:android:4c824dba71870335",
+        "android_client_info": {
+          "package_name": "com.anamika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759923721515-020t8oolegs9ic4e9dh5hi8jd1q2qao2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADnPr7siGQgVVQZaX5j9bzUhklPWMV_nI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
